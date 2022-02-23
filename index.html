@@ -7,21 +7,41 @@
 
     </head>
     <body>
-        <div id="content">
-            <h1>Cifra de Cesar</h1>
-            <input type="text" name="chave" id="chave" placeholder="Informe a chave">
-            <input id="palavraDigitada" name="name" type="text" placeholder="Informe a palavra">
+        <h1 id="titulo">Cifra de Cesar</h1>
+        <div id="container">
+            <!--input texto para chave e palavra-->
+            <div id="input-txt">
+                <input type="text" name="chave" id="chave" placeholder="Informe a chave">
+                <input id="palavraDigitada" name="name" type="text" placeholder="palavra (cifrar/descifrar)">
+            </div>
             <br>
             <!--botoes-->
-            <input class="btn btn-warning id="BtnEnviarCifra" type="submit" value="Cifrar">
-            <input class="btn btn-info" id="descifrar" type="submit" value="Descifrar">
+            <div id="input-botoes">
+                <input class="btn btn-warning" id="BtnEnviarCifra" type="submit" value="Cifrar">
+                <input class="btn btn-info" id="descifrar" type="submit" value="Descifrar">
+            </div>
             <br>
             <!--Caixa de texto-->
-            <label for="resposta"><b>Cifrado / Descifrado</b></label><br>
-            <textarea id="resposta" name="resposta" rows="4" cols="50"></textarea>
-
+            <div id="caixa-de-resposta">
+                <label for="resposta"><b>Cifrado / Descifrado</b></label><br>
+                <textarea id="resposta" name="resposta" rows="4" cols="50"></textarea>
+            </div>
         </div>
 
+        <!--Imagem de fundo-->
+        <section>
+            <img src="img/stars.png" alt="estrelas" id="stars">
+            <img src="img/moon.png" alt="moon" id="moon">
+            <img src="img/mountains_behind.png" alt="mountains_behind" id="mountains_behind">
+            <img src="img/mountains_front.png" alt="mountains_front" id="mountains_front">
+        </section>
+
+        <footer>
+            Desenvolvido por <a
+            href="mailto:thai.cds1@gmail.com">Thainara Carvalho</a>
+            &copy; 2022
+        </footer>
+        
         <script type="text/javascript" src="js/codigo.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
