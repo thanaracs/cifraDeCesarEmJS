@@ -62,5 +62,9 @@ section img#moon{
 
 footer{
     color: rgb(204, 223, 248);
-    
+}
+
+#resposta {
+    position: relative;
+ 
 }

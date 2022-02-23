@@ -61,6 +61,7 @@ function descifrar(){
     for (var i = 0; i < palavraDigitada.length; i++ ){ //percorrendo tamanho da palavra digitada
 
             var letra = palavraDigitada[i];
+            
             var posicaoNoAlfabeto = alfabeto.lastIndexOf(letra); //posicao de cada letra no alfabeto
             palavraCifrada = palavraCifrada + alfabeto[parseInt(posicaoNoAlfabeto) - parseInt(chave)];    
 
