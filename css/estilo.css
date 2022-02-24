@@ -37,6 +37,7 @@ input{
     position: relative;
     z-index: 10;
     margin-top: 65px !important;
+
 }
 section{
     position: static;
@@ -68,3 +69,4 @@ footer{
     position: relative;
  
 }
+
